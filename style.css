@@ -157,3 +157,32 @@ footer {
     margin-bottom: 6px;
     color: var(--text);
 }
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--pill-border);
+    background: var(--card-bg);
+    color: var(--text);
+    cursor: pointer;
+}
+
+.tab-button.active {
+    background: var(--accent);
+    color: #000;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
