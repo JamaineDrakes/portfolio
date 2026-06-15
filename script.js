@@ -30,3 +30,18 @@ tabButtons.forEach(btn => {
     });
 });
 
+// document.addEventListener("DOMContentLoaded", () => {
+//     const hint = document.getElementById("theme-hint");
+
+//     // Only show if user has never seen it
+//     if (!localStorage.getItem("themeHintShown")) {
+//         hint.classList.add("show");
+
+//         setTimeout(() => {
+//             hint.classList.remove("show");
+//             localStorage.setItem("themeHintShown", "true");
+//         }, 2000);
+//     }
+// });
+
+

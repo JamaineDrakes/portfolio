@@ -190,3 +190,41 @@ footer {
 .project-headers{
     margin-left: 25px;
 }
+
+a {
+    color: #4da3ff; /* brighter blue */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #82c4ff;
+    text-decoration: underline;
+}
+
+/* Dark mode override */
+.dark-mode a {
+    color: #7ab8ff;
+}
+
+.dark-mode a:hover {
+    color: #a8d4ff;
+}
+
+#theme-hint {
+    position: absolute;
+    top: 60px; /* adjust based on your navbar */
+    right: 20px;
+    background: var(--card-bg);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+}
+
+#theme-hint.show {
+    opacity: 1;
+}
