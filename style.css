@@ -186,3 +186,7 @@ footer {
 .tab-content.active {
     display: block;
 }
+
+.project-headers{
+    margin-left: 25px;
+}
