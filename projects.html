@@ -1,75 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects | Jamaine Drakes</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-
-<header class="navbar">
-    <h1 class="logo">JD</h1>
-    <nav>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1 class="logo">JD</h1>
+      <nav>
         <button id="theme-toggle">🌙</button>
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<section class="hero small">
-    <h2>My Projects</h2>
-</section>
+    <section class="hero small">
+      <h2>My Projects</h2>
+    </section>
 
-<section class="tabs">
-    <button class="tab-button active" data-tab="js">JavaScript Games</button>
-    <button class="tab-button" data-tab="godot">Godot Games</button>
-    <button class="tab-button" data-tab="work">Work Projects</button>
-</section>
+    <section class="tabs">
+      <button class="tab-button active" data-tab="js">JavaScript Games</button>
+      <button class="tab-button" data-tab="godot">Godot Games</button>
+      <button class="tab-button" data-tab="work">Work Projects</button>
+    </section>
 
-<section id="js" class="tab-content active">
-    <h2 class="project-headers">JavaScript Games</h2>
-    <div class="project-grid">
-
+    <section id="js" class="tab-content active">
+      <h2 class="project-headers">JavaScript Games</h2>
+      <div class="project-grid">
         <div class="project-card">
-            <h3>Snake Game</h3>
-            <p>A classic snake game built with HTML, CSS, and JavaScript.</p>
-            <a href="./js-games/snake-game/index.html" target="_blank" class="btn">Play</a>
+          <h3>Snake Game</h3>
+          <p>A classic snake game built with HTML, CSS, and JavaScript.</p>
+          <a href="./js-games/snake-game/index.html" target="_blank" class="btn"
+            >Play</a
+          >
         </div>
 
         <div class="project-card">
-            <h3>Tic Tac Toe</h3>
-            <p>A clean, responsive two player tic‑tac‑toe game.</p>
-            <a href="./js-games/tic-tac-toe/index.html" target="_blank" class="btn">Play</a>
+          <h3>Tic Tac Toe</h3>
+          <p>A clean, responsive two player tic‑tac‑toe game.</p>
+          <a
+            href="./js-games/tic-tac-toe/index.html"
+            target="_blank"
+            class="btn"
+            >Play</a
+          >
         </div>
 
         <div class="project-card">
-            <h3>Sumt the Numbers</h3>
-            <p>A memory game where you must summ the numbers displayed. Gets progressively more difficult</p>
-            <a href="./js-games/sum-numbers/index.html" target="_blank" class="btn">Play</a>
+          <h3>Sumt the Numbers</h3>
+          <p>
+            A memory game where you must summ the numbers displayed. Gets
+            progressively more difficult
+          </p>
+          <a
+            href="./js-games/sum-numbers/index.html"
+            target="_blank"
+            class="btn"
+            >Play</a
+          >
         </div>
 
         <div class="project-card">
-            <h3>Word to Number Converter</h3>
-            <p>Enter a number in word and see the numerical value.</p>
-            <a href="./js-games/convert-words-to-numbers/index.html" target="_blank" class="btn">Play</a>
+          <h3>Word to Number Converter</h3>
+          <p>Enter a number in word and see the numerical value.</p>
+          <a
+            href="./js-games/convert-words-to-numbers/index.html"
+            target="_blank"
+            class="btn"
+            >Play</a
+          >
         </div>
-
-        
 
         <!-- Add more games here -->
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="godot" class="tab-content">
-    <h2>Godot Games</h2>
-    <p>Coming soon...</p>
-</section>
+    <section id="godot" class="tab-content">
+      <h2 class="project-headers">Godot Games</h2>
+      <div class="project-grid">
+        <!-- Game One -->
+        <div class="project-card">
+          <h3>Rise High</h3>
+          <p>
+            Climb as high and quickly as possible to avoid the deadly lava.
+          </p>
+          <a href="./godot/rise-high/RiseHigh.html" target="_blank" class="btn"
+            >Play</a
+          >
 
-<footer>
-    <p>© 2026 Jamaine Drakes</p>
-</footer>
+          <div class="instructions">
+            <h4>🎮 How to Play</h4>
+            <ul>
+              <li>
+                ⬅️ Move Left: <strong>A</strong> or <strong>Left Arrow</strong>
+              </li>
+              <li>
+                ➡️ Move Right: <strong>D</strong> or
+                <strong>Right Arrow</strong>
+              </li>
+              <li>⬆️ Jump: <strong>W</strong> or <strong>Up Arrow</strong></li>
+              <li>
+                ✨ Double Jump: Press <strong>W</strong> twice or
+                <strong>Up Arrow</strong> twice
+              </li>
+            </ul>
+            <p class="tip">
+              💡 <em>Pro Tip:</em> Jumping from the side of obstacles makes things interesting!
+            </p>
+          </div>
+        </div>
 
-</body>
-<script src="./script.js"></script>
+        <!-- Game Two Placeholder -->
+        <div class="project-card">
+          <h3>Coming Soon...</h3>
+          <p>Another exciting Godot game is on the way. Stay tuned!</p>
+          <a href="#" class="btn disabled">Play</a>
+
+          <div class="instructions">
+            <h4>🎮 How to Play</h4>
+            <p>Instructions will be revealed once the game is ready.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Jamaine Drakes</p>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
 </html>
